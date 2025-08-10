@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuroFluxys </title>
+   <link rel="icon" type="image/x-icon" href="/iconV5.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <form class="contact-form" action="form.php" method="POST"></form>
+
+
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo-container">
+      <a href="index.html"><img src="iconV5.png" alt="NeuroFluxy" class="logo"></a>
+      <a href="index.html"  class="logo-text" style="font-family: aa;"><span>NEUROFLUXYS</span></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#games" class="nav-link">GAMES</a></li>
+      <li><a href="#apps" class="nav-link">APPS</a></li>
+      <li><a href="#about" class="nav-link">ABOUT</a></li>
+      <li><a href="#contact" class="nav-btn">CONTACT</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+
+
+ 
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="section bg-dark">
+  <div class="contact-container">
+    <div class="contact-form">
+      <h3>CONTACT  <span class="text-red"> US</span></h3>
+      <form 
+        action="https://formspree.io/f/xblkrqva" 
+        method="POST"
+        id="contact-form"
+      >
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="_replyto" placeholder="E-mail" required>
+        <textarea name="message" placeholder="message" required></textarea>
+        <button type="submit" class="btn-primary">
+          SEND <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+      </div>
+      <div class="contact-info">
+        <h3>CONTACT <span class="text-red">INFO</span></h3>
+        <div class="info-item">
+          <i class="fas fa-envelope text-red"></i>
+          <span>neurofluxy069@gmail.com</span>
+        </div>
+        <!-- Diğer iletişim bilgileri -->
+        <div class="social-links">
+          <a href="https://www.instagram.com/neurofluxys/"><i class="fab fa-instagram"></i></a>
+         <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+          <!-- <a href="#"><i class="fab fa-youtube"></i></a>-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="iconV5.png" alt="NeuroFluxy" class="logo">
+        <h1 class="bot">NEUROFLUXYS</h1>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Career</a>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2025 NeuroFluxys. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
